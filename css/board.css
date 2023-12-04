@@ -768,6 +768,7 @@ progress::-moz-progress-bar {
 
     .rotateCard {
         max-width: 240px;
+        min-width: 230px;
     }
 
     .todoSection {
@@ -900,5 +901,9 @@ progress::-moz-progress-bar {
 
     #done {
         margin-bottom: 80px;
+    }
+
+    .todos {
+        width:calc(100vw-40px);
     }
 }
